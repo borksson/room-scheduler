@@ -1,5 +1,17 @@
 ## Launch
-/usr/bin/python3 -m venv env
-source env/bin/activate
+Start the python environment
 
-pip install --upgrade pip
+`source env/bin/activate`
+
+Add your optimal schedule to the appData.json using format:
+
+```JSON
+"tuesday": {
+    "start": "3:30pm",
+    "numSeats": 4
+}
+```
+
+Run the automated scheduler
+
+`python roomScheduler.py`

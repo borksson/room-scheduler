@@ -1,0 +1,122 @@
+{
+    "elements": {
+        "date": {
+            "by": {
+                "xpath": "/html/body/section/div/section/div[3]/form[2]/select[1]",
+                "css": "#date"
+            }
+        },
+        "subarea": {
+            "by": {
+                "xpath": "/html/body/section/div/section/div[3]/form[2]/select[2]",
+                "css": "#subarea"
+            }
+        },
+        "go": {
+            "by": {
+                "xpath": "/html/body/section/div/section/div[3]/form[2]/input[4]",
+                "css": "#Submit"
+            }
+        },
+        "grid": {
+            "by": {
+                "xpath": "/html/body/section/div/section/div[3]/table",
+                "css": "#grid"
+            }
+        },
+        "rooms": {
+            "by": {
+                "xpath": "/html/body/section/div/section/div[3]/table/tbody/tr[1]",
+                "css": "tbody > tr:nth-child(1)"
+            }
+        },
+        "times": {
+            "by": {
+                "xpath": "/html/body/section/div/section/div[3]/table/tbody/*",
+                "css": "tbody"
+            }
+        },
+        "login": {
+            "by": {
+                "xpath": "/html/body/section/div/section/nav/div/ul/li/a",
+                "css": "#subnav > div > ul > li > a"
+            }
+        },
+        "username": {
+            "by": {
+                "xpath": "/html/body/div/div/main/div/div/div[1]/div/div[4]/div/form/section[1]/div/input",
+                "css": "#username"
+            }
+        },
+        "password": {
+            "by": {
+                "xpath": "/html/body/div/div/main/div/div/div[1]/div/div[4]/div/form/section[2]/div/input",
+                "css": "#password"
+            }
+        },
+        "submit": {
+            "by": {
+                "xpath": "/html/body/div/div/main/div/div/div[1]/div/div[4]/div/form/input[4]",
+                "css": "#byuSignInButton"
+            }
+        },
+        "duration": {
+            "by": {
+                "xpath": "/html/body/section/div/section/section/div[1]/form/fieldset/div[1]/select",
+                "css": "#duration"
+            }
+        },
+        "description": {
+            "by": {
+                "xpath": "/html/body/section/div/section/section/div[1]/form/fieldset/div[2]/input",
+                "css": "#course"
+            }
+        },
+        "reserve": {
+            "by": {
+                "xpath": "/html/body/section/div/section/section/div[1]/form/input[5]",
+                "css": "#frmReserve > input.button"
+            }
+        }
+    },
+    "optimalSchedule": {
+        "tuesday": {
+            "start": "3:30pm",
+            "numSeats": 4,
+            "floor": 2
+        },
+        "thursday": {
+            "start": "3:30pm",
+            "numSeats": 4,
+            "floor": 2
+        }
+    },
+    "currentSchedule": {
+        "tuesday": {
+            "timeAvailable": 9.0,
+            "room": "2523",
+            "roomDetails": {
+                "roomNumber": "2523",
+                "numberOfSeats": 4,
+                "date": "Tuesday, October 25",
+                "floor": "2nd Floor Study Rooms",
+                "day": "tuesday",
+                "start": "3:30pm"
+            },
+            "link": "https://groupstudy.lib.byu.edu/reserve.php?room=2523&time=3:30pm&date=2022/10/25"
+        },
+        "thursday": {
+            "timeAvailable": 9.0,
+            "room": "2103",
+            "roomDetails": {
+                "roomNumber": "2103",
+                "numberOfSeats": 6,
+                "date": "Thursday, October 27",
+                "floor": "2nd Floor Study Rooms",
+                "day": "thursday",
+                "start": "3:30pm"
+            },
+            "link": "https://groupstudy.lib.byu.edu/reserve.php?room=2103&time=3:30pm&date=2022/10/27"
+        }
+    }
+}
