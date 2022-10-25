@@ -78,45 +78,5 @@
                 "css": "#frmReserve > input.button"
             }
         }
-    },
-    "optimalSchedule": {
-        "tuesday": {
-            "start": "3:30pm",
-            "numSeats": 4,
-            "floor": 2
-        },
-        "thursday": {
-            "start": "3:30pm",
-            "numSeats": 4,
-            "floor": 2
-        }
-    },
-    "currentSchedule": {
-        "tuesday": {
-            "timeAvailable": 9.0,
-            "room": "2523",
-            "roomDetails": {
-                "roomNumber": "2523",
-                "numberOfSeats": 4,
-                "date": "Tuesday, October 25",
-                "floor": "2nd Floor Study Rooms",
-                "day": "tuesday",
-                "start": "3:30pm"
-            },
-            "link": "https://groupstudy.lib.byu.edu/reserve.php?room=2523&time=3:30pm&date=2022/10/25"
-        },
-        "thursday": {
-            "timeAvailable": 9.0,
-            "room": "2103",
-            "roomDetails": {
-                "roomNumber": "2103",
-                "numberOfSeats": 6,
-                "date": "Thursday, October 27",
-                "floor": "2nd Floor Study Rooms",
-                "day": "thursday",
-                "start": "3:30pm"
-            },
-            "link": "https://groupstudy.lib.byu.edu/reserve.php?room=2103&time=3:30pm&date=2022/10/27"
-        }
     }
 }

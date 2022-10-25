@@ -17,6 +17,8 @@ PASSWORD = os.environ['PASSWORD']
 with open('appData.json', 'r') as f:
     appData = json.load(f)
 
+with open()
+
 options = webdriver.ChromeOptions()
 #options.add_argument('headless')
 
@@ -116,7 +118,7 @@ for room in reserveRooms:
     description.send_keys("Reserved for group study")
     reserveButton = driver.find_element(By.CSS_SELECTOR, appData['elements']['reserve']['by']['css'])
     input("FINISH CAPTCHA, then press Enter to continue...")
-    reserveButton.click()
+    #reserveButton.click()
     appData['currentSchedule'][room['roomDetails']['day']] = room
     print("Reserved room!")
 
