@@ -5,13 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+
+## 1.0.0 - 2022-10-25
 ### Added
-- TODO Abstracted the scheduler
+- Abstracted the scheduler
 - Improved project structure
-- TODO Added changelog
+- Added changelog
 ### Changed
-- TODO Removed the users schedule from the appData.json
-- TODO Updated readme
+- Removed the users schedule from the appData.json
+- Updated readme
 
 ## 0.1.0 - 2022-10-24
 ### Added

@@ -2,37 +2,37 @@
     "elements": {
         "date": {
             "by": {
-                "xpath": "/html/body/section/div/section/div[3]/form[2]/select[1]",
+                "xpath": "/html/body/section/div/section/div[2]/form[2]/select[1]",
                 "css": "#date"
             }
         },
         "subarea": {
             "by": {
-                "xpath": "/html/body/section/div/section/div[3]/form[2]/select[2]",
+                "xpath": "/html/body/section/div/section/div[2]/form[2]/select[2]",
                 "css": "#subarea"
             }
         },
         "go": {
             "by": {
-                "xpath": "/html/body/section/div/section/div[3]/form[2]/input[4]",
+                "xpath": "/html/body/section/div/section/div[2]/form[2]/input[4]",
                 "css": "#Submit"
             }
         },
         "grid": {
             "by": {
-                "xpath": "/html/body/section/div/section/div[3]/table",
+                "xpath": "/html/body/section/div/section/div[2]/table",
                 "css": "#grid"
             }
         },
         "rooms": {
             "by": {
-                "xpath": "/html/body/section/div/section/div[3]/table/tbody/tr[1]",
+                "xpath": "/html/body/section/div/section/div[2]/table/tbody/tr[1]",
                 "css": "tbody > tr:nth-child(1)"
             }
         },
         "times": {
             "by": {
-                "xpath": "/html/body/section/div/section/div[3]/table/tbody/*",
+                "xpath": "/html/body/section/div/section/div[2]/table/tbody/*",
                 "css": "tbody"
             }
         },

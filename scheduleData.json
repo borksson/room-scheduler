@@ -5,15 +5,10 @@
             "numSeats": 2,
             "floor": 1
         },
-        "tuesday": {
-            "start": "4:00pm",
-            "numSeats": 2,
-            "floor": 1
-        },
         "friday": {
             "start": "1:00pm",
             "numSeats": 2,
-            "floor": 1
+            "floor": 4
         }
     },
     "currentSchedule": {

@@ -1,0 +1,3 @@
+USERNAME=
+PASSWORD=
+SCHEDULE=scheduleData.json
