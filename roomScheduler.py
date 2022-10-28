@@ -95,7 +95,7 @@ def reserveRooms_(reserveRooms, driver):
         description.send_keys("Reserved for group study")
         reserveButton = driver.find_element(By.CSS_SELECTOR, appData['elements']['reserve']['by']['css'])
         input("FINISH CAPTCHA, then press Enter to continue...")
-        #reserveButton.click()
+        reserveButton.click()
         schedule['currentSchedule'][room['roomDetails']['day']] = room
         print("Reserved room!")
 
@@ -139,15 +139,16 @@ if len(optimalSchedule) > 0:
     reserveRooms = getOptimalRooms(optimalSchedule, driver)
     if(len(reserveRooms) > 0):
         print("Reserving rooms...")
+        driver.close()
         driver = webdriver.Chrome(ChromeDriverManager().install())
         login_mainpage(driver)
         reserveRooms_(reserveRooms, driver)
+        driver.close()
     else:
         print("No rooms available for reservation.")
 else:
     print("All optimal schedule rooms are scheduled.")
 
-input("Press Enter to terminate...")
+input("Press Enter to save...")
 with open(SCHEDULE, 'w') as outfile:
     json.dump(schedule, outfile, indent=4)
-driver.close()
